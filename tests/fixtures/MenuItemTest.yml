@@ -1,0 +1,19 @@
+Heyday\MenuManager\MenuItem:
+  about:
+    PageID: 2
+    MenuTitle: 'Custom Title'
+  external:
+    Link: 'https://example.com/'
+  externalWithPage:
+    Link: 'https://example.com/'
+    PageID: 2
+
+SilverStripe\CMS\Model\SiteTree:
+  home:
+    Title: 'Home'
+    URLSegment: 'home'
+    ID: 1
+  about:
+    Title: 'About'
+    URLSegment: 'about'
+    ID: 2
